@@ -4,7 +4,7 @@ A Flutter mobile application project.
 
 📱 About
 
-FagunMela is a Flutter-based app built for learning and development purposes.
+FagunMela is a Flutter-based emoccerce app built for learning and development purposes.
 This project follows a structured approach to organize code and build scalable applications.
 
 🚀 Features

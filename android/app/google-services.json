@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "961653479021",
+    "project_id": "fagunmela-1bb71",
+    "storage_bucket": "fagunmela-1bb71.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961653479021:android:7d6652f499a4981a515164",
+        "android_client_info": {
+          "package_name": "com.example.fagunmela"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcsG0IWkx3Jfncp3d1AM0iIrjbHMXZQeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

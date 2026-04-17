@@ -7,24 +7,15 @@ import 'package:flutter/material.dart';
 
 import 'app/fagunmela_app.dart';
 import 'firebase_options.dart';
-//import 'app_theme.dart';
 
-// Firebase set up
-// Crashlytics set up
-// Analytics set up
-// Provider set up
-// Localization set up
-// Architecture Design
-// Theming set up
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
-  // Pass all uncaught "fatal" errors from the framework to Crashlytics
+
   FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterFatalError;
 
-  // Pass all uncaught asynchronous errors that aren't handled by the Flutter framework to Crashlytics
   PlatformDispatcher.instance.onError = (error, stack) {
     FirebaseCrashlytics.instance.recordError(error, stack, fatal: true);
     return true;
